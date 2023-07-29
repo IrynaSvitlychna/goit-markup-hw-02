@@ -1,0 +1,112 @@
+:root {
+  --iris: #4d5ae5;
+  --OCEAN: #404bbf;
+  --Navyblue: #2e2f42;
+  --GREEN: #31d0aa;
+  --SLATE: #434455;
+  --LIGHTSLATE: #8e8f99;
+  --cornflower: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVYBLUEmodal: #2e2f42;
+  --GREY: #2e2f42;
+  --WHITE: #ffffff;
+  --Dairy: #fcfcfc;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+}
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+ul {
+  list-style-type: none;
+}
+
+.accent {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav-list-item {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.addr .link {
+  color: var(--slate, #434455);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.hero {
+}
+
+.hero-title {
+}
+
+.hero-butn {
+}
+
+.feature {
+}
+
+.feature-title {
+}
+
+.feature-list {
+}
+
+.feature-item {
+}
+
+.feature-subtitle {
+}
+
+.feature-text {
+}
+
+.do {
+}
+
+.do-list {
+}
+
+.do-item {
+}
+
+.team {
+}
+
+.team-title {
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-subtitle {
+}
+
+.team-text {
+}
+
+.foot {
+}
+
+.foot-text {
+}
