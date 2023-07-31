@@ -15,15 +15,23 @@
 
 body {
   font-family: Roboto, sans-serif;
-  color: #2e2f42;
+  color: var(--navyblue, #2e2f42);
   background-color: #fff;
 }
-footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
+
+.list {
+  list-style: none;
 }
-ul {
-  list-style-type: none;
+
+.link {
+  text-decoration: none;
+}
+
+.nav {
+}
+
+.nav-link {
+  text-transform: uppercase;
 }
 
 .accent {
@@ -35,8 +43,30 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.link {
-  text-decoration: none;
+.nav-list {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.nv-link:hover,
+.nv-link:focus {
+  color: var(--OCEAN, #404bbf);
+}
+
+.pf-list-bf-btn:hover,
+.pf-list-bf-btn:focus {
+  background: var(--cornflower, #e7e9fc);
+  color: var(--iris, #4d5ae5);
+}
+
+.hero-butn:hover,
+.hero-butn:focus {
+  background: var(--OCEAN, #404bbf);
+  color: var(--white, #fff);
 }
 
 .nav-list-item {
@@ -45,19 +75,52 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.addr .link {
+.addr {
+}
+
+.addr-list {
+}
+
+.addr-list-item {
+}
+
+.list-item-link {
   color: var(--slate, #434455);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .hero {
+  background: var(--navyblue, #2e2f42);
 }
 
 .hero-title {
+  color: var(--white, #fff);
+  text-align: center;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
+.pf-list-bf-btn {
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--cloud, #f4f4fd);
+}
 .hero-butn {
+  background: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .feature {
@@ -73,12 +136,32 @@ ul {
 }
 
 .feature-subtitle {
+  color: var(--navyblue, #2e2f42);
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .feature-text {
+  color: var(--slate, #434455);
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .do {
+}
+
+.do-title {
+  text-align: center;
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .do-list {
@@ -87,10 +170,21 @@ ul {
 .do-item {
 }
 
+.do-img {
+}
+
 .team {
+  background: var(--cloud, #f4f4fd);
 }
 
 .team-title {
+  text-align: center;
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-list {
@@ -99,14 +193,73 @@ ul {
 .team-item {
 }
 
+.team-img {
+}
+
 .team-subtitle {
+  text-align: center;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team-text {
+  color: var(--slate, #434455);
+  text-align: center;
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .foot {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
+.foot-link {
+  color: var(--cloud, #f4f4fd);
 }
 
 .foot-text {
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.pf {
+}
+
+.pf-title {
+}
+
+.pf-list-bf {
+}
+
+.pf-list-bf-item {
+}
+
+.pf-list-pc {
+}
+
+.pf-list-pc-item {
+}
+
+.pf-list-pc-img {
+}
+
+.pf-list-pc-subtitle {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.pf-list-pc-text {
+  color: var(--slate, #434455);
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
