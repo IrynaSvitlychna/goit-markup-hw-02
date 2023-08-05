@@ -241,6 +241,10 @@ button {
   color: var(--cloud);
 }
 
+.foot-link.accent {
+  color: #f4f4fd;
+}
+
 .foot-text {
   font-family: inherit;
   line-height: 1.5;
