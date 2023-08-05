@@ -42,11 +42,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
 }
 
 .accent {
-  color: var(--Navyblue, #2e2f42);
+  color: var(--Navyblue);
 }
 
 .nav-list {
