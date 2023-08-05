@@ -71,7 +71,7 @@ button {
 
 .pf-list-bf-btn:hover,
 .pf-list-bf-btn:focus {
-  background-color: var(--cornflower);
+  background-color: var(--OCEAN);
   color: #ffffff;
 }
 
@@ -135,7 +135,8 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--cloud);
+  font-size: 16px;
+  background-color: var(--CLOUD);
 }
 
 .feature {
