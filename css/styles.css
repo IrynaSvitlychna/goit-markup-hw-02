@@ -234,6 +234,7 @@ button {
 
 .foot {
   background-color: #2e2f42;
+
   color: #f4f4fd;
 }
 
@@ -251,6 +252,9 @@ button {
   letter-spacing: 0.02em;
 }
 
+.accent-pf {
+  color: #f4f4fd;
+}
 .pf {
 }
 
@@ -282,8 +286,7 @@ button {
 }
 
 .pf-list-pc-text {
-  color: #434455;
-  color: var(--slate);
+  color: var(--SLATE);
   font-family: inherit;
   line-height: 1.5;
   letter-spacing: 0.02em;
