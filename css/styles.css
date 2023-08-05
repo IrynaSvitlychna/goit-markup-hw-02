@@ -58,21 +58,26 @@ button {
   text-transform: uppercase;
 }
 
+.nv-link {
+  font-size: 16px;
+  color: var(--Navyblue);
+}
+
 .nv-link:hover,
 .nv-link:focus {
-  color: var(--OCEAN, #404bbf);
+  color: var(--OCEAN);
 }
 
 .pf-list-bf-btn:hover,
 .pf-list-bf-btn:focus {
-  background: var(--cornflower, #e7e9fc);
-  color: var(--iris, #4d5ae5);
+  background: var(--cornflower);
+  color: var(--iris);
 }
 
 .hero-butn:hover,
 .hero-butn:focus {
-  background: var(--OCEAN, #404bbf);
-  color: var(--white, #fff);
+  background: var(--OCEAN);
+  color: var(--white);
 }
 
 .nav-list-item {
@@ -92,17 +97,17 @@ button {
 }
 
 .list-item-link {
-  color: var(--slate, #434455);
+  color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .hero {
-  background: var(--navyblue, #2e2f42);
+  background: var(--navyblue);
 }
 
 .hero-title {
-  color: var(--white, #fff);
+  color: var(--white);
   text-align: center;
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   font-family: inherit;
@@ -113,17 +118,17 @@ button {
 }
 
 .pf-list-bf-btn {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
   text-align: center;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background: var(--cloud, #f4f4fd);
+  background: var(--cloud);
 }
 .hero-butn {
-  background: var(--iris, #4d5ae5);
-  color: var(--white, #fff);
+  background: var(--iris);
+  color: var(--white);
   font-family: inherit;
   font-weight: 500;
   line-height: 1.5;
@@ -143,7 +148,7 @@ button {
 }
 
 .feature-subtitle {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-family: inherit;
   font-size: 20px;
   font-weight: 500;
@@ -152,7 +157,7 @@ button {
 }
 
 .feature-text {
-  color: var(--slate, #434455);
+  color: var(--slate);
   font-family: inherit;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -181,7 +186,7 @@ button {
 }
 
 .team {
-  background: var(--cloud, #f4f4fd);
+  background: var(--cloud);
 }
 
 .team-title {
@@ -213,7 +218,7 @@ button {
 }
 
 .team-text {
-  color: var(--slate, #434455);
+  color: var(--slate);
   text-align: center;
   font-family: inherit;
   line-height: 1.5;
@@ -226,7 +231,7 @@ button {
 }
 
 .foot-link {
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud);
 }
 
 .foot-text {
@@ -265,7 +270,7 @@ button {
 }
 
 .pf-list-pc-text {
-  color: var(--slate, #434455);
+  color: var(--slate);
   font-family: inherit;
   line-height: 1.5;
   letter-spacing: 0.02em;
